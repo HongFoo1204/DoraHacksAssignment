@@ -31,7 +31,7 @@ export default function Card(props: CardProps) {
   return (
     <div
       onMouseMove={handleMouseMove}
-      className={`card w-[22rem] bg-[#ffd1b3] bg-opacity-5 flex flex-col justify-center items-center border border-[#3c3b4d] rounded-2xl p-12`}
+      className={`card w-[22rem] bg-[#ffd1b3] bg-opacity-0 hover:bg-opacity-5  flex flex-col justify-center items-center border border-[#3c3b4d] rounded-2xl p-12`}
     >
       <Image
         className="h-20 w-20 m-5 invert"
